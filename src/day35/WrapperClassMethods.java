@@ -39,12 +39,18 @@ public class WrapperClassMethods {
         System.out.println("\n-----------Integer-----------------");
 
         Integer integerObj = Integer.valueOf("120"); //or Integer.valueOf(120)
+
+
+
+
         //or old way (same of all primitives other than Character)
         // Integer integerObj = new Integer("120");
         System.out.println("integerObj = " + integerObj);
         System.out.println("Get Integer Object-> Integer.valueOf(10) = "     + Integer.valueOf(10));
         System.out.println("Get Integer Object-> Integer.valueOf(\"10\") = " + Integer.valueOf("10"));
         // all wrapper class object have toString method
+
+        System.out.println(integerObj);
         System.out.println("Convert number to String :Integer.toString(10) " + Integer.toString(10));
 
         System.out.println("Convert String to int-> Integer.parseInt(\"100\") = " + Integer.parseInt("100"));
@@ -60,6 +66,7 @@ public class WrapperClassMethods {
 
         System.out.println("\n-----------Covert Integer object to primitives-----------------");
         Integer i1 = Integer.valueOf("12");
+
         System.out.println("convert Integer Object to byte  : i1.byteValue()  -> " + i1.byteValue());
         System.out.println("convert Integer Object to short : i1.shortValue() -> " + i1.shortValue());
         System.out.println("convert Integer Object to long  : i1.longValue() -> " + i1.longValue());
@@ -112,6 +119,9 @@ public class WrapperClassMethods {
         System.out.println("Lowest  number float can hold : Float.MIN_VALUE = " + Float.MIN_VALUE  );
         System.out.println("Largest number double can hold : Double.MAX_VALUE = " + Double.MAX_VALUE  );
         System.out.println("Lowest  number double can hold : Double.MIN_VALUE = " + Double.MIN_VALUE  );
+
+
+
 
 
     }
