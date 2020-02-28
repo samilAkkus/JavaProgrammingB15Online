@@ -62,6 +62,10 @@ public class MovieUtility {
     public static void printMovieInformation(Movie movieObj) {
         //TODO YOUR CODE HERE
 
+        System.out.println("The movie name is : " + movieObj.getName());
+        System.out.println("The movie length is : " + movieObj.getLength());
+        System.out.println("The movie genre is : " + movieObj.getType());
+
     }
     /**
      * A void method that accept any movie object

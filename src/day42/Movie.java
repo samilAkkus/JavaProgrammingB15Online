@@ -29,6 +29,14 @@ public class Movie {
                 ", type='" + type + '\'' +
                 '}';
     }
+
+    public double getLength() {
+        return length;
+    }
+
+    public String getType() {
+        return type;
+    }
 }
 
 
